@@ -53,6 +53,29 @@ This script manages the deployment process. It allows running:
 
 ## 📦 Requirements
 
+### ⚙️ Virtual Environment Setup
+
+The virtual environment was removed due to its large size. To set up a new one, follow these steps:
+
+1. Create a virtual environment:
+   ```bash
+   python -m venv [env_name]
+   ```
+
+2. Install ZenML and MLflow:
+   ```bash
+   pip install zenml[server]
+   zenml integration install mlflow -y
+   ```
+
+3. Add the experiment tracker and model deployer, then create a new ZenML stack:
+   ```bash
+   zenml experiment-tracker register mlflow_tracker --flavor=mlflow
+   zenml model-deployer register mlflow_deployer --flavor=mlflow
+   zenml stack register mlflow_stack -a default -o default -x mlflow_tracker -d mlflow_deployer
+   zenml stack set mlflow_stack
+   ```
+
 Before running the project, install the necessary dependencies:
 
 ```bash
