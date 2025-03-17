@@ -13,6 +13,10 @@ This project is a simple test to understand the basics of MLOps using **ZenML** 
 
 ## 📂 Project Structure
 
+### `MLOps_introduction` Notebook
+
+A Jupyter Notebook was first made to understand the fundamentals of ZenML.
+
 ### Directories
 - **`data/`**: Contains the dataset used for training and inference.
 - **`src/`**: Contains helper classes for various ML steps:
