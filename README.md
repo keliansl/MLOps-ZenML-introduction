@@ -111,12 +111,16 @@ ZenML requires background processes using **daemon**, which is not supported on 
 - If your BIOS supports virtualization, you can use **Windows Subsystem for Linux (WSL)** to run a Linux environment in VSCode.
 - If WSL is not available (as in my case), an alternative is to use **Google Cloud Platform (GCP)**:
   1. Create a **Virtual Machine (VM)** on GCP with Ubuntu.
+  
   2. Connect to the VM from your local machine via SSH.
+  
   3. Transfer project files to the VM.
+  
   4. Set up a virtual environment and install dependencies:
      ```bash
      pip install -r requirements.txt
      ```
+     
   5. Run the deployment commands in the VM:
      ```bash
      python run_deployment.py --config deploy
