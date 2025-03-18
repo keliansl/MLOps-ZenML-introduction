@@ -130,3 +130,6 @@ ZenML requires background processes using **daemon**, which is not supported on 
 - Add more robust data validation steps.
 - Explore other model deployment strategies.
 - Automate the workflow using CI/CD pipelines.
+
+## 📢 Credits & References
+- [freeCodeCamp Course](https://www.youtube.com/watch?v=-dJPoLm_gtE)
