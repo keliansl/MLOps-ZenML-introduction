@@ -133,3 +133,7 @@ ZenML requires background processes using **daemon**, which is not supported on 
 
 ## 📢 Credits & References
 - [freeCodeCamp Course](https://www.youtube.com/watch?v=-dJPoLm_gtE)
+- [Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=olist_order_payments_dataset.csv)
+- [ZenML Fundamentals](https://www.youtube.com/watch?v=iCB4KNjl5vs&t=159s)
+- [ZenML Documentation](https://docs.zenml.io/)
+- [MLflow Documentation](https://mlflow.org/docs/latest/)
